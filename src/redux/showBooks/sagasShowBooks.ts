@@ -1,5 +1,4 @@
 import { put, takeEvery, call } from "redux-saga/effects";
-// import {reQuest} from './request.get'
 import {request} from '../../services/request'
 import axios from 'axios';
 
@@ -7,8 +6,6 @@ export function* showBooks(): IterableIterator<any> {
   yield takeEvery(`SHOW_BOOKS`, function*(action: any) {
     try {
        let books = yield call(request,'books', 'GET')
-      console.log(books);
-      
       yield put({
         type: `SHOW_BOOKS_SUCCESS`,
         payload: {
