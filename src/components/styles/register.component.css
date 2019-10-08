@@ -1,0 +1,31 @@
+.error{
+    color: red;
+    margin: 20px;
+}
+.reg-form{
+    display: block;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 1px antiquewhite;
+    border-radius: 10px;
+}
+.reg-form input{
+    width: 100%;
+    margin: 10px auto;
+    padding: 9px;
+    border: solid 1px antiquewhite;
+    border-radius: 10px;
+}
+.reg-form button{
+    cursor: pointer;
+    width: 100%;
+    margin: 10px auto;
+    padding: 9px;
+    border: solid 1px antiquewhite;
+    border-radius: 10px;
+}
+.reg-form button:hover{
+    background-color: burlywood;
+}

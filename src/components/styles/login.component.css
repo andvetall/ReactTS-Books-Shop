@@ -1,0 +1,31 @@
+.message{
+    color: green;
+    margin: 20px;
+}
+.log-form{
+    display: block;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 1px antiquewhite;
+    border-radius: 10px;
+}
+.log-form input{
+    width: 100%;
+    margin: 10px auto;
+    padding: 9px;
+    border: solid 1px antiquewhite;
+    border-radius: 10px;
+}
+.log-form button{
+    cursor: pointer;
+    width: 100%;
+    margin: 10px auto;
+    padding: 9px;
+    border: solid 1px antiquewhite;
+    border-radius: 10px;
+}
+.log-form button:hover{
+    background-color: burlywood;
+}
